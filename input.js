@@ -10,7 +10,9 @@ const handleUserInput = function (key) {
     connection.write("Move: down")
   } else if (key === "d"){
     connection.write("Move: right")
-  } else if (key === "x") {
+  } else if (key === "z"){
+    connection.write("Say: AYYOOO")
+  }else if (key === "x") {
     process.exit();
   }
 };
